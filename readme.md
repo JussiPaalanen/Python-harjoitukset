@@ -11,5 +11,7 @@ Tein python 1-6 tehtävät
 
 #### Moduuli 3 ####
 
+Teim python 1-4 tehtävät
+
 
 #### Moduuli 4 ####
