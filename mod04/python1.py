@@ -1,7 +1,5 @@
-x = 1
-while x < 1000:
-    if x % 3 == 0:
-        print(f"{x}")
-    x += 1
-else:
-    x += 0
+x = float(input("Mikä on kuhan pituus: "))
+if x < 37.0:
+    print(f"Kuha on alamittainen {37.0 - x:.1f} senttiä, laske kala takaisin veteen.")
+else: 
+    print("Hyvä pituus.")

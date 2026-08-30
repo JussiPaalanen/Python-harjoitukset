@@ -1,10 +1,19 @@
-while True:
-    tuumat = float(input("Anna tuumat (Negatiivinen lopettaa): "))
+a = "LUX"
+b = "A"
+c = "B"
+d = "C"
 
-    if tuumat < 0:
-        print("Ohjelma lopettaa. ")
-        break
+x = (input("Mikä on hyttiluokkasi: "))
 
-    sentit = tuumat * 2.54
-    print(f"{tuumat} tuumaa = sentit {sentit:.2f} cm.")
-    
+if x == a:
+    print("LUX on parvekkeellinen hytti yläkannella")
+elif x == b:
+    print("A on ikkunallinen hytti autokannen yläpuolella")
+elif x == c:
+    print("B on ikkunaton hytti autokannen yläpuolella.")
+elif x == d:
+    print("C on ikkunaton hytti yläkannen alapuolella.")
+else: 
+    print("Virheellinen hyttiluokka.")
+
+

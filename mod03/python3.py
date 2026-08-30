@@ -1,9 +1,5 @@
-s1 = input("Kerro sukupuolesi: ")
-h1 = int(input("Kerro hemoglobiiniarvo: "))
+kanta = float(input("Anna kanta: "))
+korkeus = float(input("Anna korkeus: "))
 
-if s1 == "Mies" and h1 > 195 or s1 == "Nainen" and h1 > 175: 
-    print("Hemoglobiiniarvosi ovat korkeat.")
-elif s1 == "Mies" and h1 < 134 or s1 == "Nainen" and h1 < 117:
-    print("Hemoglobiiniarvosi ovat matalat.")
-else:
-    print("Hemoglobiiniarvosi ovat normaalit.")
+print(f"Suorakulmion pinta-ala on: {kanta * korkeus}")
+print(f"Suorakulmion piiri on: {2*kanta + 2*korkeus}")

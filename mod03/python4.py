@@ -1,8 +1,9 @@
-vuosiluku = int(input("Anna vuosiluku: "))
-
-if vuosiluku % 4 == 0:
-    print("Vuosi on karkausvuosi")
-elif vuosiluku % 100 == 0 and vuosiluku % 400 == 0:
-    print("Vuosi on karkausvuosi")
-else:
-    print("Vuosi ei ole karkausvuosi")
+eka = int(input("Anna ensimmäinen numero: "))
+toka = int(input("Anna toinen numero: "))
+kolmas = int(input("Anna kolmas numero: "))
+summa = eka + toka + kolmas
+tulo = eka * toka * kolmas
+keskiarvo = summa / 3
+print(f"Lukujen summa on: {summa}")
+print(f"Lukujen tulo on: {tulo}")
+print(f"Lukujen keskiarvo on: {keskiarvo}")
