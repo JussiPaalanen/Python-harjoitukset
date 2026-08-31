@@ -8,11 +8,15 @@ while True:
         break
     numero = float(luku)
 
-    if numero is None or numero < pienin:
-        numero = pienin
-    elif numero is None or numero > suurin:
-        numero = suurin
-
+    if pienin is None:
+        pienin = numero
+        suurin = numero
+    else: 
+        if numero < pienin:
+            pienin = numero
+        if numero > suurin:
+            suurin = numero
+   
   
         print(f"Pienin luku:", pienin)
         print(f"Suurin luku:", suurin)
