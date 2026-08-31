@@ -16,4 +16,4 @@ Tein python 1-4 tehtävät
 
 #### Moduuli 5 ####
 
-Tehnyt tehtävät 1 - 5.
+Tein tehtävät 1 - 5.
