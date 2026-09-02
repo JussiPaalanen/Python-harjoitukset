@@ -17,3 +17,7 @@ Tein python 1-4 tehtävät
 #### Moduuli 5 ####
 
 Tein tehtävät 1 - 5.
+
+
+#### Moduuli 6 ####
+
