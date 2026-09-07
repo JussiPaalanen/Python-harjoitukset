@@ -21,3 +21,4 @@ Tein tehtävät 1 - 5.
 
 #### Moduuli 6 ####
 
+Tein tehtävät 1-4.
