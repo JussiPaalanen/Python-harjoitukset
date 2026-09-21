@@ -10,7 +10,7 @@ class Kirja(Julkaisu):
 
     def tulostatiedot(self):
         print(f"Kirja\nNimi: {j1.nimi}\nKirjoittaja: {j1.kirjoittaja}\nSivumäärä: {j1.sivumaara}")
-        print("-" * 5)
+        print("-" * 25)
 
 class Lehti(Julkaisu):
     def __init__(self, nimi, päätoimittaja):
