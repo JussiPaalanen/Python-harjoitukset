@@ -1,0 +1,6 @@
+
+
+Tämän pelin tarkoituksena on kerätä erilaisia esineitä eri huoneista,
+jotka löydät kahdesta erilaiseta talosta.
+Liikkuminen tapahtuu päävalikkoa käyttäen
+Voit tallentaa edistymisen missä vaiheessa tahansa päävalikon kautta.

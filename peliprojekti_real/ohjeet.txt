@@ -1,0 +1,4 @@
+OHJEET
+Enter  = liiku satunnaiseen huoneeseen
+v      = vaihda taloa
+q      = palaa päävalikkoon
