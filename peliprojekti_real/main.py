@@ -3,15 +3,19 @@ from huone import Huone, maailma
 from esine import Esine
 import random
 import json
+import os
+
+KANSIO = os.path.dirname(os.path.abspath(__file__))
 
 #Ohjelma aluksi printtaa käyttyäjälle pelin intron ja ohjeet
 
 def lue_tiedosto(tiedostonimi):
+    polku = os.path.join(KANSIO, tiedostonimi)
     try:
-        with open(tiedostonimi, "r", encoding="utf-8") as f:
+        with open(polku, "r", encoding="utf-8") as f:
             print(f.read())
     except FileNotFoundError:
-        print(f"Tiedostoa {tiedostonimi} ei löytynyt.")
+        print(f"Tiedostoa {polku} ei löytynyt.")
 
 #Tehdään tallennus komennot peliä varten. Missä vaan tilanteessa, kun pelaaja menee päävalikkoon hän pystyy
 #tallentamaan pelin ja ladata kun aloittaa pelaamisen. 
